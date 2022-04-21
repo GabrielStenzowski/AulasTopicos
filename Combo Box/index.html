@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Combo Box</p>
+    <select onchange="combo(this.value)">
+        <option value="1">Matheus</option>
+        <option value="2">Felipe</option>
+        <option value="3">Amanda</option>
+        <option value="3">Bruna</option>
+        <option value="4">Yasmin</option>
+    </select>
+
+    <button>Enviar</button>
+</body>
+
+<script>
+    function combo(valor){
+        alert(valor)
+    }
+</script>
+</html>
