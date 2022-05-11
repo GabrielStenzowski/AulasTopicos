@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Receber Coisas</title>
+</head>
+<body>
+    
+    <button>Aperte-me</button>
+
+    <script>
+        var button = document.querySelector('button');
+
+        button.onclick = function() 
+        {
+        var nome = prompt('Qual é o seu nome?');
+        var nota1 = parseInt(prompt('Digite a primeira nota:'));
+        var nota2 = parseInt(prompt('Digite a segunda nota:'))
+
+        media = (nota1 + nota2) / 2;
+
+        alert('Olá ' + nome + ', sua media é: ' + media); 
+        }
+    </script>
+
+
+</body>
+</html>
+
